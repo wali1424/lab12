@@ -71,7 +71,7 @@ public class FamilyTree
             
             while (tempParent != null) {
             	ancestors.add(tempParent);
-            	tempParent = parent.parent;
+            	tempParent = tempParent.parent;
             }
             // ?????  Collect ancestors of this TreeNode into the array list. HINT: going up
             // the nodes of a tree is like traversing a linked list. If that isn’t clear,
